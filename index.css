@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+padding: auto;
+}
+.uppr{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    gap:4%;
+    padding: 0 15%;
+    align-items: center;
+justify-content: center;
+box-sizing: border-box;
+
+}
+
+.logo{
+    width:30% ;
+}
+.right-uppr{
+display: flex;
+margin-bottom:15px ;
+}
+.right-uppr h3{
+    font-size: 18px;
+    margin-right: 2%;
+    border-right: 2px solid black;
+    padding-right: 1%;
+}
+.right-uppr a{
+    color: black;
+    text-decoration: none;
+
+}
+.right-lower img{
+    width: 15%;
+
+}
+.right-lower h1{
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.right-uppr .track a{
+    color: rgb(181, 37, 61);
+}
+.right-uppr .icons a{
+color: blue;
+}
+.right-uppr a:hover{
+    text-decoration: underline;
+}
+.nav a{
+    font-family:  Trebuchet MS, Helvetica, sans-serif;
+
+    text-decoration: none;
+    color: white;
+    font-size: 14.2px;
+    text-transform: uppercase;
+
+}
+.nav{
+    background-color: rgb(6, 80, 107);
+width: 69%;
+margin:auto;
+text-align: center;
+display: flex;
+border-radius: 0 15px 15px 0;
+margin-bottom: 40px;
+flex-wrap: wrap;
+}
+.nav h3{
+    padding: 13px 10px;
+}
+.yellow{
+    color: rgb(255, 145, 0);
+}
+.home{
+    color: black;
+padding-left: 2%;
+    background-color: rgb(224, 219, 219);
+}
+.nav h3:hover{
+    color: black;
+    background-color: white;
+}
+.nav h3 a:hover{
+color: black;
+}
+.mid{
+    display: flex;
+    width:70%;
+    margin: auto;
+    /* flex-wrap: wrap; */
+    box-sizing: border-box;
+    font-family:  Trebuchet MS, Helvetica, sans-serif;
+
+}
+.mid-left ,.mid-right{
+    width: 20%;
+}
+.mid-mid{
+    width:60%;
+}
+.mid-mid h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.mid-mid p{
+    text-align: start;
+    font-size:18px;
+    margin-bottom: 50px;
+padding-top: 20px;
+    padding-left: 10px;
+}
+.mid-mid img{
+    width: 15%;
+    height: 20vh;
+}
+.mid-left ,.mid-right {
+    height: fit-content;
+    width: 20%;
+    font-size: 17px;
+    background-color: rgb(243, 241, 241);
+}
+.mid-left a{
+    text-decoration: none;
+    color: black;
+}
+.mid-right a{
+    text-decoration: none;
+    color: black;
+}
+.capital{
+    color :white;
+    font-weight: 900;
+    background-color: rgb(6, 80, 107);
+    border-radius: 10px;
+}
+
+.mid-left a:hover{
+    text-decoration: underline;
+}
+.mid-right a:hover{
+    text-decoration: underline;
+
+}
+
+.mid-left ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgb(158, 156, 156);
+}
+.mid-left ul{
+    list-style: none;
+
+}
+.mid-right ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgb(158, 156, 156);
+}
+.mid-right ul{
+    list-style: none;
+
+}
+.mid-mid ul  {
+    padding: 20px 40px;
+    /* margin-left: 40px; */
+    border-top:1px solid ;
+    border-bottom: 1px solid;
+    font-size: 19px;
+
+}
+.hii h1 {
+    padding-left: 25px;
+    font-size: 2.5vw;
+}
+.hii p{
+margin-bottom: 20px;
+margin-left: 27px;
+}
+
+.button{
+    padding: 10px;
+    font-size: 22px;
+    background-color: rgb(38, 239, 250);border: none;
+    border-radius: 50px 0 0 50px;
+    position: relative;
+    bottom: 10px;
+    top: 10px;
+    margin-bottom: 40px;
+    left: 20px;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.fa-xmark{
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 30%;
+}
+form{
+    background-color: rgb(6, 80, 107);
+    padding: 20px 10px
+}
+form input
+{
+    width: 100%;
+    font-size: 15px;
+    padding: 6px;
+}
+.option {
+    font-size: .9vw;
+    padding: 8px;
+
+}
+.red{
+    color: red;
+}
+.blue{
+    color: rgb(62, 131, 214);
+    text-decoration: none;
+}
+.blue :hover{
+    text-decoration: underline;
+}
+.blue1{
+    font-size: 20px;
+    margin-left: 30%;
+    padding-bottom: 6%;
+}
+.blue1:hover{
+    text-decoration: underline;
+}
+marquee{
+    width: 65%;
+    margin:3% 17.5%
+}marquee img{
+    border: 2px solid black;
+}
+@media screen and (max-width: 600px) {
+    *{
+        margin-left: 0;
+        margin-right: 0;
+    }
+.mid{
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.mid-left, .mid-right,.mid-mid{
+    width: 80%;
+}
+.last{
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.right-uppr{
+    flex-wrap: wrap;
+    padding-right:0 ;
+}
+.nav{
+    width: 80%;
+    margin: 0;
+
+}
+.uppr{
+    padding-right: 5px;
+    padding-left: 0;
+    width: 80%;
+}
+  }
+  

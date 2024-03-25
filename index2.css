@@ -1,0 +1,151 @@
+.last{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    gap: 5%;
+    background-color: rgb(6, 80, 107);
+    padding: 3% 3%;
+    border-radius: 10px  10px 0 0;
+}
+.last ul{
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+.last a{
+    text-decoration: none;
+    color: white;
+}
+.last li{margin: 10px 0;
+
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.portfolio
+{
+    text-align: center;
+}
+.portfolio{
+    width: 71%;
+    background-color: rgb(6, 80, 107);
+    margin: auto;
+    padding-bottom: 30px;
+    color: white ;
+}
+.portfolio a{
+    color: red;
+}
+.nav1{
+    text-align: center;
+    border-radius: 10px ;
+    padding: 10px;
+    background-color: rgb(6, 80, 107);
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+.nav1 h1{
+    text-align: center;
+}
+.none{
+    background-color: white;
+}
+.none textarea{
+    padding: 10px;
+    border: 1px solid rgb(173, 169, 169);
+    width:80% ;
+    margin-left: 10%;
+}
+.none input{
+    padding: 10px;
+    border: 1px solid rgb(173, 169, 169);
+    width:80% ;
+    padding-right: 100px;
+    margin-left: 10%;
+}
+
+
+.submit input{
+    width: 100%;
+    margin-left: 45%;
+}
+.nav1 h3{
+    margin-bottom: 0;
+}
+.middle-content h3{
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.middle-content p{
+margin-bottom: 10px;
+
+padding-top: 10px;
+
+}
+.middle-content {
+    margin-left: 15px;
+}
+.middle-content ul {
+    border: none;
+    padding: 0;
+    margin-left: 25px;font-size: 17px;
+}
+.middle-content li a{
+    text-decoration: none;
+    /* margin-bottom: 40px; */
+    line-height: 25px;
+}
+.middle-content li a:hover{
+    text-decoration: underline;
+}
+.nav1 a{
+    color: white;
+    text-decoration: none;
+}
+.none input{
+
+width: 50%;
+;
+}
+.special-issue{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(209, 209, 239);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.special-issue a{
+    color: rgb(62, 62, 122);
+    text-decoration: none;
+}
+.special-issue:hover{
+    color: white;
+    background-color: rgb(6, 80, 107);
+    
+}
+
+.special-issue a h1:hover{
+    font-size: 20px;
+    color: white;
+
+}
+.current-issue{
+    background-color: rgb(225, 225, 249);
+    width: 80%;
+    margin: auto;
+    padding: 7px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ margin-top: 10px;   
+}
+.current-issue a{
+    text-decoration: none;
+    color: rgb(88, 88, 129);
+
+}
